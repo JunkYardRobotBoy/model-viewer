@@ -1,0 +1,21 @@
+commit 31664d7bff650471f78cc6c3381464bd6614b3b0
+Author: Christopher Joel <cdata@google.com>
+Date:   Wed Mar 4 08:44:07 2020 -0800
+
+    Reduce to unique materials (#1072)
+    
+    * Express material names in the 3DOM scene graph
+    
+    * Remove vestigial logging, stricter test
+    
+    * Refactor GLTF preparation and cloning
+    
+    * Get Constructor from utilities
+    
+    * Remove vestigial comments
+    
+    * Fix GLTFInstance preparation in IE11
+    
+    * Remove vestigial debug code
+    
+    * Lightly refactor test suite
